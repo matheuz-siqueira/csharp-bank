@@ -3,6 +3,8 @@ namespace csharp_bank{
     class Program{
         static void Main(string[] args){
 
+            Account account; 
+
             Console.Write("Informe o número da conta: ");
             int number = int.Parse(Console.ReadLine());
 
@@ -11,14 +13,16 @@ namespace csharp_bank{
             
             Console.Write("Haverá depósito inicial [s/n]? ");
             char resp = char.Parse(Console.ReadLine()); 
-            double value = 0;
+            
 
             if (resp == 'S' || resp == 's'){
                 Console.Write("Informe o valor inicial: ");
-                value = double.Parse(Console.ReadLine());
+                double value = double.Parse(Console.ReadLine());
+                account = new Account(number, name, value);
+            }else{
+                account = new Account(number, name);
             } 
 
-            Account account = new Account(number, name, value);
 
             Console.WriteLine("Dados da conta: ");
             Console.WriteLine(account.ToString()); 
