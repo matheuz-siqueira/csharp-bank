@@ -33,5 +33,9 @@ public class Account
     public void BankDeposit(int value){
         if (value > 0 ) { BankBalance += value; } 
     }
+
+    public void BankDraft(int value){
+        BankBalance -= (value + 5); 
+    }
 }
 

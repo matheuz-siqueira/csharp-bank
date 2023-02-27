@@ -2,7 +2,7 @@
 namespace csharp_bank{
     class Program{
         static void Main(string[] args){
-            Account account = new Account(1234, "Alex Green", 1000); 
+            Account account = new Account(1234, "Alex Green"); 
 
             account.OwnerAccount = "Alex Black";
 
@@ -10,9 +10,12 @@ namespace csharp_bank{
             Console.WriteLine(account.OwnerAccount);
             Console.WriteLine(account.BankBalance);
 
-            account.BankDeposit(200);
-
+            account.BankDeposit(200); 
             Console.WriteLine(account.BankBalance);
+            account.BankDraft(198); 
+            Console.WriteLine(account.BankBalance);
+
+           
             
         }
     }
