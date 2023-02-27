@@ -30,12 +30,18 @@ public class Account
         }
     }
 
-    public void BankDeposit(int value){
+    public void BankDeposit(double value){
         if (value > 0 ) { BankBalance += value; } 
     }
 
-    public void BankDraft(int value){
+    public void BankDraft(double value){
         BankBalance -= (value + 5); 
+    }
+
+    public override string ToString()
+    {
+        return $"Conta {AccountNumber}, Titular: {OwnerAccount}, Saldo: {BankBalance.ToString("C")}";
+
     }
 }
 
