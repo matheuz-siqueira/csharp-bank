@@ -25,21 +25,21 @@ namespace csharp_bank{
 
 
             Console.WriteLine("Dados da conta: ");
-            Console.WriteLine(account.ToString()); 
+            Console.WriteLine(account); 
 
             Console.Write("Informe um valor para depósito: ");
             double balance = double.Parse(Console.ReadLine());
             account.BankDeposit(balance); 
 
             Console.WriteLine("Dados da conta atualizados: ");
-            Console.WriteLine(account.ToString()); 
+            Console.WriteLine(account); 
 
             Console.Write("Informe um valor para saque: ");
-            double draft = double.Parse(Console.ReadLine());
-            account.BankDraft(draft);
+            balance = double.Parse(Console.ReadLine());
+            account.BankDraft(balance);
 
             Console.WriteLine("Dados da conta atualizados: ");
-            Console.WriteLine(account.ToString()); 
+            Console.WriteLine(account); 
 
             
         }

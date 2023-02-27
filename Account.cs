@@ -12,7 +12,7 @@ public class Account
         _ownerAccount = ownerAccount; 
     }
     public Account (int accountNumber, string ownerAccount, double initialValue) : this (accountNumber, ownerAccount) {
-        BankBalance = initialValue;
+        BankDeposit(initialValue);
     }
 
    
