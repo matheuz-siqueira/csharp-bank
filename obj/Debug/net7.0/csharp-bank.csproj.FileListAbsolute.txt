@@ -1,0 +1,15 @@
+/home/matheus/Projetos/csharp-bank/bin/Debug/net7.0/csharp-bank
+/home/matheus/Projetos/csharp-bank/bin/Debug/net7.0/csharp-bank.deps.json
+/home/matheus/Projetos/csharp-bank/bin/Debug/net7.0/csharp-bank.runtimeconfig.json
+/home/matheus/Projetos/csharp-bank/bin/Debug/net7.0/csharp-bank.dll
+/home/matheus/Projetos/csharp-bank/bin/Debug/net7.0/csharp-bank.pdb
+/home/matheus/Projetos/csharp-bank/obj/Debug/net7.0/csharp-bank.csproj.AssemblyReference.cache
+/home/matheus/Projetos/csharp-bank/obj/Debug/net7.0/csharp-bank.GeneratedMSBuildEditorConfig.editorconfig
+/home/matheus/Projetos/csharp-bank/obj/Debug/net7.0/csharp-bank.AssemblyInfoInputs.cache
+/home/matheus/Projetos/csharp-bank/obj/Debug/net7.0/csharp-bank.AssemblyInfo.cs
+/home/matheus/Projetos/csharp-bank/obj/Debug/net7.0/csharp-bank.csproj.CoreCompileInputs.cache
+/home/matheus/Projetos/csharp-bank/obj/Debug/net7.0/csharp-bank.dll
+/home/matheus/Projetos/csharp-bank/obj/Debug/net7.0/refint/csharp-bank.dll
+/home/matheus/Projetos/csharp-bank/obj/Debug/net7.0/csharp-bank.pdb
+/home/matheus/Projetos/csharp-bank/obj/Debug/net7.0/csharp-bank.genruntimeconfig.cache
+/home/matheus/Projetos/csharp-bank/obj/Debug/net7.0/ref/csharp-bank.dll
