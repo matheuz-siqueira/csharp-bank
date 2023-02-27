@@ -4,20 +4,20 @@ public class Account
 {
     private string _ownerAccount;
 
-    public double InitialValue { get; private set; } 
+    public double BankBalance { get; private set; } 
     public int AccountNumber { get; private set; }
     
 
     public Account (int accountNumber, string ownerAccount, double initialValue) {
         AccountNumber = accountNumber;
         _ownerAccount = ownerAccount;
-        InitialValue = initialValue;
+        BankBalance = initialValue;
     }
 
     public Account (int accountNumber, string ownerAccount) {
         AccountNumber = accountNumber;
         _ownerAccount = ownerAccount; 
-        InitialValue = 0; 
+        BankBalance = 0; 
     }
 
     public string OwnerAccount{
@@ -30,5 +30,8 @@ public class Account
         }
     }
 
+    public void BankDeposit(int value){
+        if (value > 0 ) { BankBalance += value; } 
     }
+}
 
